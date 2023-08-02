@@ -10,4 +10,5 @@ import lombok.Setter;
 @ConfigurationProperties(prefix = "application", ignoreUnknownFields = false)
 public class ApplicationProperties {
     private TmdbProperties tmdb;
+    private TraktProperties trakt;
 }
